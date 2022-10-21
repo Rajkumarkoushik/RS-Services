@@ -1,0 +1,105 @@
+@media(max-width: 1200px){
+    body h6 {
+        font-size: 18px;
+    }
+    .nav-section {
+        width: 1150px;
+        right: -70px;
+    }
+    .navigation i {
+        font-size: 21px;
+        padding: 18px 19px;
+    }
+    .nav-phone, .nav-email, .nav-location {
+        gap: 1rem;
+    }
+    .navigation a p {
+        font-size: 15px;
+    }
+    .navigation p {
+        font-size: 15px;
+    }
+}
+
+
+
+
+@media(max-width: 1000px){
+    .nav-phone, .nav-email, .nav-location {
+        display: none;
+    }
+    .navigation {
+        justify-content: space-between;
+        padding: 20px 50px;
+    }
+    .hamburger{
+        display: block !important;
+    }
+    .nav-section{
+        width: 700px;
+    }
+    .nav-pages {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .nav-links h6{
+        display: none;
+    }
+    .nav-sublinks{
+        transform: translateY(-600px);
+    }
+    .navigation i{
+        font-size: 32px;
+        background-color: #fff;
+    }
+    .nav-section{
+        right: 30px;
+        top: 108px;
+    }
+   .nav-links{
+    margin: 0;
+    justify-content: start;
+   }
+   .nav-pages li {
+    padding: 0 20px;
+    }
+    .nav-sublinks {
+        left: 123px;
+        position: inherit;
+        margin: -50px 100px;
+    }
+    .nav-sublinks li a{
+        padding-right: 100px;
+    }
+    .nav-sublinks li{
+        padding: 10px;
+    }
+    .nav-services{
+        height: 25px;
+    }
+    .nav-section{
+        transform: translateX(-800px);
+        transition: all 0.7s;
+    }
+    .show-nav-section{
+        transform: translateX(0px);
+        transition: all 0.7s;
+    }
+}
+
+
+@media(max-width: 767px){
+    .nav-section {
+        width: 290px;
+    }
+    .nav-sublinks {
+        margin: -50px 10px  0 90px;
+    }
+    .nav-sublinks li a {
+        padding-right: 66px;
+        font-size: 15px;
+    }
+    .carousel-item img {
+        height: 50vh;
+    }
+}
