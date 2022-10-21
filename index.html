@@ -100,6 +100,63 @@
 
     <!-- Carousels section ends -->
     
+    <!-- Appointment Form Start -->
+    
+    <div id="container">
+      <!--This is a division tag for body container-->
+      <div id="body_header">
+        <!--This is a division tag for body header-->
+        <div class="col-lg-12 col-md-12 col-xs-12">
+          <h3>Appointment Request Form</h3>
+          <p>Make your appointments more easier</p>
+        </div>
+      </div>
+               
+          <form class="Form-section"action="index.html" method="post">
+          <div class="form1">
+            <fieldset>
+              <legend><span class="number">1</span>Your Basic Details</legend>
+              <label for="name">Name*:</label>
+              <input type="text" id="name" name="user_name" placeholder="Enter First name" required pattern="[a-zA-Z0-9]+">
+              
+              <label for="mail">Email*:</label>
+              <input type="email" id="mail" name="user_email" placeholder="Enter Mail">
+      
+              <label for="tel">Mobile Num *:</label>
+              <input type="tel" id="tel" placeholder="Enter Phone Number" name="user_num" required>
+              <label for="address_description">Location :</label>
+              <textarea id="address_description" name="address_description" placeholder="Please Enter Your Area" rows="2"></textarea>
+            </fieldset>
+          </div>
+        
+          <div class="form2">
+            <fieldset>
+            <legend><span class="number">2</span>Service Details</legend>
+                <label for="appointment_for">Service Request For*:</label><br>
+                <select id="appointment_for" name="appointment_for" placeholder="Choose Appliance" required>
+                  <option value="select_name" disabled>Please select Service</option>
+                  <option value="WM">Washing Machine</option>
+                  <option value="Fridge">Refrigerator</option>
+                  <option value="AC">Air Conditioner</option>
+                </select>
+                <br>
+                <!-- <label for="appointment_description">Problem Description:</label> -->
+                <textarea id="appointment_description" name="appointment_description" placeholder="Please Enter the Problem you are facing" rows="4"></textarea>
+                <label for="date">Date*:</label>
+                <input type="date" name="date" value="" required></input>
+                <br>
+                <label for="time">Time*:</label>
+                <input type="time" name="time" value="" required></input>
+            </fieldset>
+            <button type="submit">Request For Service</button>
+          </div>
+          
+          </form>
+        
+    </div>
+
+    <!-- Appoint Form Ends -->
+
 
     <!-- Java script links -->
     <script src="/main.js"></script>
