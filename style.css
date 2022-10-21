@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;1,300;1,500;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body h6{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Nvaigation section starts */
+.navigation{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0;
+    align-items: center;
+    background-color: #fff;
+}
+.nav-phone, .nav-email, .nav-location{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.navigation i{
+    color: #ff6d34;
+    font-size: 25px;
+    border: 1px solid #ff6d34;
+    padding: 22px 25px;
+    border-radius: 50%;
+    background-color: #f9f9f9;
+    border: none;
+}
+.navigation a p{
+    color: rgb(170, 165, 165);
+    font-size: 18px;
+    font-weight: 500;
+}
+.navigation a p:hover{
+    color: #ff6d34;
+}
+.navigation a:hover{
+    text-decoration: none;
+}
+.navigation p{
+    color: rgb(170, 165, 165);
+    font-size: 18px;
+    font-weight: 500;
+}
+.nav-location p:hover{
+    color: #ff6d34;
+}
+.nav-pages{
+    display: flex;
+    gap: 3rem;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+}
+.nav-pages li{
+    list-style: none;
+}
+.nav-pages li a{
+    color: #000;
+}
+.nav-pages li a:hover{
+    text-decoration: none;
+    color: #ff6d34;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    background: #f9f9f9;
+    margin: 0 150px;
+    padding: 20px 0;
+}
+.hamburger{
+    display: none !important;
+}
+.nav-sublinks li{
+    padding: 6px 140px 6px 15px;
+    border-bottom: 1px solid rgb(107, 103, 103);
+}
+.nav-sublinks{
+    position: absolute;
+    z-index: 3;
+}
+.nav-sublinks{
+    border: 1px solid rgb(252, 244, 244);
+    margin-top: 20px;
+    border-top: 2px solid #ff6d34; 
+    transform: translateY(-500px);
+    transition: all 0.6s;
+}
+.nav-services:hover .nav-sublinks{
+   transform: translateY(0px);
+   transition: all 0.6s;
+}
+.nav-section {
+    position: absolute;
+    z-index: 2;
+    width: 1340px;
+    top: 140px;
+}
+/* Naviagtion section ends */
+
+/*  Carousel section starts */
+.carousel-item img{
+    height: 100vh;
+
+}
+/*  Carousel section ends */
