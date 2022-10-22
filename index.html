@@ -155,6 +155,7 @@
       </div>
 
     <!-- Carousels section ends -->
+<<<<<<< HEAD
 
     <!-- Whats app icon section starts -->
       <div class="whatsapp-icon">
@@ -202,8 +203,147 @@
     <!-- Aboutus section ends -->
 
    
+=======
+    
+    <!-- Appointment Form Start -->
+    
+    <div id="container" class="form-background">
+      <!--This is a division tag for body container-->
+      <div id="body_header">
+        <!--This is a division tag for body header-->
+        <div class="col-lg-12 col-md-12 col-xs-12">
+          <h3>Appointment Request Form</h3>
+          <p id="form-p">Make your appointments more easier</p>
+        </div>
+      </div>
+               
+          <form class="Form-section"action="index.html" method="post">
+          <div class="form1">
+            <fieldset>
+              <legend><span class="number">1</span>Your Basic Details</legend>
+              <label for="name">Name*:</label>
+              <input type="text" id="name" name="user_name" placeholder="Enter First name" required pattern="[a-zA-Z0-9]+">
+              
+              <label for="mail">Email*:</label>
+              <input type="email" id="mail" name="user_email" placeholder="Enter Mail">
+      
+              <label for="tel">Mobile Num *:</label>
+              <input type="tel" id="tel" placeholder="Enter Phone Number" name="user_num" required>
+              <label for="address_description">Location :</label>
+              <textarea id="address_description" name="address_description" placeholder="Please Enter Your Area" rows="2"></textarea>
+            </fieldset>
+          </div>
+        
+          <div class="form2">
+            <fieldset>
+            <legend><span class="number">2</span>Service Details</legend>
+                <label for="appointment_for">Service Request For*:</label><br>
+                <select id="appointment_for" name="appointment_for" placeholder="Choose Appliance" required>
+                  <option value="select_name" disabled>Please select Service</option>
+                  <option value="WM">Washing Machine</option>
+                  <option value="Fridge">Refrigerator</option>
+                  <option value="AC">Air Conditioner</option>
+                </select>
+                <br>
+                <!-- <label for="appointment_description">Problem Description:</label> -->
+                <textarea id="appointment_description" name="appointment_description" placeholder="Please Enter the Problem you are facing" rows="4"></textarea>
+                <label for="date">Date*:</label>
+                <input type="date" name="date" value="" required></input>
+                <br>
+                <label for="time">Time*:</label>
+                <input type="time" name="time" value="" required></input>
+            </fieldset>
+            <button type="submit">Request For Service</button>
+          </div>
+          
+          </form>
+        
+    </div>
 
+    <!-- Appointment Form Ends -->
+>>>>>>> 8685ce27194483c3c05ca9423c85f87e89529f2e
 
+    <!-- Services section Start -->
+    <section class="felona-service-area section_70">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-6">
+               <div class="site-heading">
+                  <h4>What we do?</h4>
+                  <h2>We’re provided best Appliance <span>Repair services!</span></h2>
+                  <p>Curabitur in libero neque. Nulla at vestibulum massa. Fusce feugiat tellus fermen tum.massa. Fusce feugiat.</p>
+               </div>
+            </div>
+            <div class="col-lg-6">
+               <div class="load-more-action">
+                  <a href="service.html">Explore All Services <i class="fa fa-long-arrow-right"></i></a>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-lg-4">
+               <div class="single-service">
+                  <div class="service-image">
+                     <a href="single-service.html">
+                     <img src="/Assets/wm-reapir.png" alt="waching machine" />
+                     </a>
+                  </div>
+                  <div class="service-desc">
+                     <h3>
+                        <a href="single-service.html">Washing Machine Repair</a>
+                     </h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                     <div class="service-box-action">
+                        <a href="#" class="felona-btn-border">See Details <i class="fa fa-angle-double-right"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-4">
+               <div class="single-service">
+                  <div class="service-image">
+                     <a href="single-service.html">
+                     <img src="/Assets/fridge-repair.jpg" alt="Refregirator" />
+                     </a>
+                  </div>
+                  <div class="service-desc">
+                     <h3>
+                        <a href="single-service.html">Refregirator Repair</a>
+                     </h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                     <div class="service-box-action">
+                        <a href="#" class="felona-btn-border">See Details <i class="fa fa-angle-double-right"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-4">
+               <div class="single-service">
+                  <div class="service-image">
+                     <a href="single-service.html">
+                     <img src="/Assets/ac-repair1.jpg" alt="dishwasher" />
+                     </a>
+                  </div>
+                  <div class="service-desc">
+                     <h3>
+                        <a href="single-service.html">Air Coditioner Repair</a>
+                     </h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                     <div class="service-box-action">
+                        <a href="#" class="felona-btn-border">See Details <i class="fa fa-angle-double-right"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         
+         </div>
+      </div>
+   </section>
+
+    <!-- SErvices section Ends -->
+    
+    
     <!-- Java script links -->
     <script src="/js/main.js"></script>
     <!-- Bootstrap script links -->
